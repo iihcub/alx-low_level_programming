@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	char small, capital
+	char small, capital;
 
-		for (small = 'a'; small <= 'z', small++)
-		{
-			putchar(small);
-		}
+	for (small = 'a'; small <= 'z'; small++)
+	{
+       		putchar(small);
+	}
 
-	        for (capital = 'A'; captial <= 'Z', captial++)
-		{
-			putchar(capital);
-		}
+        for (capital = 'A'; captial <= 'Z'; captial++)
+	{
+       		putchar(capital);
+	}
 
-		putchar('\n');
-	       	return (0);
+       	putchar('\n');
+	return (0);
 }
