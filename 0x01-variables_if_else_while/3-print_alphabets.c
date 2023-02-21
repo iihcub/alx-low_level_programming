@@ -15,7 +15,7 @@ int main(void)
        		putchar(small);
 	}
 
-        for (capital = 'A'; captial <= 'Z'; captial++)
+        for (capital = 'A'; captal <= 'Z'; captial++)
 	{
        		putchar(capital);
 	}
